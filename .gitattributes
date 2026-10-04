@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.c text eol=lf
+*.asm text eol=lf
+layout/oracle.lock.json -text whitespace=cr-at-eol

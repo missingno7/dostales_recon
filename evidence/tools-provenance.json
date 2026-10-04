@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "scope": "Existing local provenance records; no historical tool download or installation performed in this project",
+  "msc600": {
+    "record_path": "C:\\tools\\provenance\\msc-6.00-nonA.provenance.json",
+    "record_sha256": "684b9039c835f672fb26261be58e9d24007ee161e125cdb4bda12ee2b2c16ff5",
+    "collected_utc": "2026-09-28",
+    "source": {
+      "organization": "Internet Archive",
+      "item": "microsoft_c_600-3.5disks",
+      "item_url": "https://archive.org/details/microsoft_c_600-3.5disks",
+      "download_base": "https://archive.org/download/microsoft_c_600-3.5disks/",
+      "item_description": "Microsoft C 6.00 (non-A); twelve original 3.5-inch 720 KB IMA disks.",
+      "disks": [
+        {
+          "filename": "CADV1.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/CADV1.IMA",
+          "size": 737280,
+          "metadata_sha1": "b33cea22fd845b0c2d3acb4dd089e82acfebdc44",
+          "sha256": "ace06ed008577c2caf53ca8580b57000355f1ee9519dbb2014c38d078cf5f4ee"
+        },
+        {
+          "filename": "CADV2.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/CADV2.IMA",
+          "size": 737280,
+          "metadata_sha1": "a441d4dcd0c1e89bf848ebd949a57ef13c74833c",
+          "sha256": "30e904bbfa21672c7e8d9dd5667db65a36691584749c520248a29ea6e444896a"
+        },
+        {
+          "filename": "COMP1.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/COMP1.IMA",
+          "size": 737280,
+          "metadata_sha1": "4c72975353b2f8392e9593329e953da9ffbd0456",
+          "sha256": "5801daeae16e521001927f48b41ee1fee7947421c6a6d362bd168c33abea7725"
+        },
+        {
+          "filename": "COMP2.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/COMP2.IMA",
+          "size": 737280,
+          "metadata_sha1": "9acad00114c4c748a75c5291e8bf530cac4d68b1",
+          "sha256": "64f2b1a7d9f57b117d6415af4e62f9dd86e5c28c89fcdf059c63c3585a93a141"
+        },
+        {
+          "filename": "CVOS2.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/CVOS2.IMA",
+          "size": 737280,
+          "metadata_sha1": "8f0ba93310c5d028bdc61b8da1f807ffeb75af6b",
+          "sha256": "4045900beea34638340fd8649a5d4db0b0cb9c0e39d1a9a46ca75bacf01fb755"
+        },
+        {
+          "filename": "LIB1.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/LIB1.IMA",
+          "size": 737280,
+          "metadata_sha1": "2c39eecc982bd84f8b0a2f2dddaecd26e475dd35",
+          "sha256": "73ebb02444445bdd88a3f8deab73c3eabf3c58ea6ce3bff6d06a6b39860ca834"
+        },
+        {
+          "filename": "LIB2.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/LIB2.IMA",
+          "size": 737280,
+          "metadata_sha1": "d51d7dbc2a7d660e66388cdccf4d6063d02f8345",
+          "sha256": "dfb93c34a94c8368b58e195735fb4d1d34c97013db528ee4d45f509fec0fc645"
+        },
+        {
+          "filename": "OS2LIB1.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/OS2LIB1.IMA",
+          "size": 737280,
+          "metadata_sha1": "c90c424f23b9c6511dbdce3b4e93886c8789e685",
+          "sha256": "abd57545257e907ce4f7eab0295d343389104c94eef3ffc25ca8dc23c5fbae77"
+        },
+        {
+          "filename": "OS2LIB2.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/OS2LIB2.IMA",
+          "size": 737280,
+          "metadata_sha1": "4eff443091b68bab9870d7a2f9c0e9fa03923da3",
+          "sha256": "ce4d30f097e8647e685d9a64bf49b4a140653a379dca78ee534427754fee29b1"
+        },
+        {
+          "filename": "PWB.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/PWB.IMA",
+          "size": 737280,
+          "metadata_sha1": "4c4fde0f7dccea978611106b7116091323c3a6de",
+          "sha256": "5fc3327a8f338da9b304e452c404277b0cfe22c30cc19d2212c95a51603f158d"
+        },
+        {
+          "filename": "SETUP.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/SETUP.IMA",
+          "size": 737280,
+          "metadata_sha1": "5a28447b1da2767a5bec3ffe016622794807cca4",
+          "sha256": "e7386a6a999e7ea0654847ece786cbe19f404d6ca10f5bfcff680229c8b7f8d9"
+        },
+        {
+          "filename": "UTILS.IMA",
+          "url": "https://archive.org/download/microsoft_c_600-3.5disks/UTILS.IMA",
+          "size": 737280,
+          "metadata_sha1": "e0d7d5d3c61fa4f4feae993b225c7bc6a2bba239",
+          "sha256": "c2e93ec7139611aa525866b3cf319280918a5b82e5c3d971cc312097f8514725"
+        }
+      ],
+      "integrity": "Each disk is 737,280 bytes; downloaded SHA-1 equals the Archive.org item metadata SHA-1; SHA-256 recorded locally."
+    },
+    "extraction": {
+      "media": "FAT12 IMA extraction with worker-local extract_msc600.py.",
+      "compressed_files": "266 DOS SZ20 packed files decoded from the product Packing List with worker-local expand_msc600.py and sz20_expand.py; all expansion records succeeded. Product tree includes BIN, INCLUDE, LIB, STARTUP, DOCS, original mediafiles and expanded payloads. No system-wide installation was run."
+    },
+    "limit": "Local record read; disk-to-tool extraction chain not independently repeated in this run. Actual used tool/library/header identities pinned separately."
+  },
+  "msc500_msc510_masm510": {
+    "origin": "locally supplied C:/tools installations",
+    "download_provenance": "unknown",
+    "identity_register": "layout/toolchain.json"
+  },
+  "runner": {
+    "local_notes": "C:/tools/nmlgcdos/ReC98 release notes.md",
+    "reported_build": "ReC98 P0281, based on upstream 2024-06-24",
+    "reported_source": "https://github.com/nmlgc/msdos-player",
+    "actual_identity_register": "layout/toolchain.json"
+  }
+}

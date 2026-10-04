@@ -1,0 +1,64 @@
+{
+  "image": {
+    "sha256": "47e622175ccf124edab2ed1b5ccb725045d5e54b5766428f8309303fcdf5564d",
+    "size": 87664
+  },
+  "inference": "Microsoft runtime and overlay-related infrastructure present; ITALLOC.ASM named by diagnostics",
+  "observations": [
+    {
+      "end": 18168,
+      "level": "fact",
+      "start": 18142,
+      "text": "Library code by Jim WeiszU",
+      "unit": "root"
+    },
+    {
+      "end": 74016,
+      "level": "fact",
+      "start": 73960,
+      "text": "MS Run-Time Library - Copyright (c) 1988, Microsoft Corp",
+      "unit": "root"
+    },
+    {
+      "end": 82011,
+      "level": "fact",
+      "start": 81946,
+      "text": "AllocBM: malloc failure - check 'malloc_threshold' in ITALLOC.ASM",
+      "unit": "root"
+    },
+    {
+      "end": 84042,
+      "level": "fact",
+      "start": 83978,
+      "text": "LoadIT: malloc failure - check 'malloc_threshold' in ITALLOC.ASM",
+      "unit": "root"
+    },
+    {
+      "end": 86371,
+      "level": "fact",
+      "start": 86354,
+      "text": "Overlay not found",
+      "unit": "root"
+    },
+    {
+      "end": 86419,
+      "level": "fact",
+      "start": 86389,
+      "text": "Overlay Manager stack overflow",
+      "unit": "root"
+    },
+    {
+      "end": 86499,
+      "level": "fact",
+      "start": 86458,
+      "text": "Cannot load overlay:  too many open files",
+      "unit": "root"
+    }
+  ],
+  "unproven": [
+    "compiler version",
+    "assembler version",
+    "original source module boundaries",
+    "overlay manager attribution"
+  ]
+}

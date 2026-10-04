@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "shared_arena_linear": 49520,
+  "shared_arena_segment": 3095,
+  "coordinate_basis": "root-image-relative encoded MZ relocation sites; loaded module offset subtracts 0xC170",
+  "evidence": "evidence/exepack-overlays.md",
+  "loader_destination_instruction": 33896,
+  "thunk_segment_to_overlay_map": "UNRESOLVED"
+}

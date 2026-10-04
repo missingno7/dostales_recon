@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "samples": [
+    {
+      "id": "crt-abs-source-probe",
+      "unit": "root",
+      "start": 33808,
+      "end": 33830,
+      "source": "evidence/probes/abs.c",
+      "profile": "msc510-medium-size",
+      "segment": "PROBE_TEXT",
+      "proof_level": "CODE_BYTES_EXACT",
+      "scope": "Standalone C reproduces the complete 22-byte stock CRT extent; original TU/object declarations unresolved"
+    },
+    {
+      "id": "overlay-print-source-probe",
+      "unit": "root",
+      "start": 33846,
+      "end": 33868,
+      "source": "evidence/probes/putstr.asm",
+      "profile": "masm510-game",
+      "segment": "PROBE_TEXT",
+      "proof_level": "CODE_BYTES_EXACT",
+      "scope": "Symbolic ASM reproduces complete 22-byte routine inside suspected stock overlay manager; historical object extent unresolved"
+    }
+  ]
+}

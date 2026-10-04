@@ -1,0 +1,15 @@
+{
+  "integrity_anomalies": [
+    {
+      "checksum_state": "bad_nonzero",
+      "checksum_sum": 255,
+      "expected_checksum": 210,
+      "module_index": 1,
+      "module_offset": 466,
+      "record_name": "COMENT",
+      "record_offset": 482,
+      "record_type": 136,
+      "stored_checksum": 209
+    }
+  ]
+}

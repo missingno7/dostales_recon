@@ -1,0 +1,763 @@
+{
+  "bss": {
+    "proof_level": "UNRESOLVED",
+    "reason": "EXEPACK paragraph destination includes serialization padding; original DGROUP, communal and uninitialized allocation not yet partitioned",
+    "size": null
+  },
+  "owners": [
+    {
+      "end": 32282,
+      "id": "root-unresolved-00000",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "root"
+    },
+    {
+      "end": 32345,
+      "id": "runtime-strcat",
+      "kind": "PINNED_RUNTIME",
+      "library": "C:/tools/msc-5.10/MLIBCR.LIB",
+      "library_sha256": "a8c6bf65551559a795f3bdcef3f70178086bf944296413716e48cba95814b9cb",
+      "member_sha256": "f1e5ba207c5ca9ecb31388a5983259d83614bfddc75161502b06bba755d61ad6",
+      "object": {
+        "comments": [
+          {
+            "class": 163,
+            "data_hex": "06737472636174",
+            "flags": 0,
+            "strict_supported": true
+          },
+          {
+            "class": 162,
+            "data_hex": "01",
+            "flags": 0,
+            "strict_supported": true
+          }
+        ],
+        "communals": [],
+        "externals": [],
+        "fixups": [],
+        "groups": [
+          {
+            "name": "DGROUP",
+            "segments": [
+              2
+            ]
+          }
+        ],
+        "modend": {
+          "flags": 0,
+          "has_start_address": false,
+          "main_module": false,
+          "raw_hex": "00",
+          "strict_supported": true
+        },
+        "name": "strcat.asm",
+        "publics": [
+          {
+            "frame": null,
+            "group_index": 0,
+            "name": "_strcat",
+            "offset": 0,
+            "segment_index": 1,
+            "type_index": 0
+          }
+        ],
+        "records": [
+          {
+            "checksum": 106,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 15,
+            "name": "THEADR",
+            "offset": 0,
+            "type": 128
+          },
+          {
+            "checksum": 52,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 13,
+            "name": "COMENT",
+            "offset": 15,
+            "type": 136
+          },
+          {
+            "checksum": 16,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 34,
+            "name": "LNAMES",
+            "offset": 28,
+            "type": 150
+          },
+          {
+            "checksum": 207,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 10,
+            "name": "SEGDEF",
+            "offset": 62,
+            "type": 152
+          },
+          {
+            "checksum": 16,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 10,
+            "name": "SEGDEF",
+            "offset": 72,
+            "type": 152
+          },
+          {
+            "checksum": 95,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 7,
+            "name": "GRPDEF",
+            "offset": 82,
+            "type": 154
+          },
+          {
+            "checksum": 106,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 17,
+            "name": "PUBDEF",
+            "offset": 89,
+            "type": 144
+          },
+          {
+            "checksum": 209,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 7,
+            "name": "COMENT",
+            "offset": 106,
+            "type": 136
+          },
+          {
+            "checksum": 184,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 70,
+            "name": "LEDATA",
+            "offset": 113,
+            "type": 160
+          },
+          {
+            "checksum": 116,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 5,
+            "name": "MODEND",
+            "offset": 183,
+            "type": 138
+          }
+        ],
+        "segments": [
+          {
+            "absolute_frame": null,
+            "absolute_offset": null,
+            "alignment": "word",
+            "big": false,
+            "class": "CODE",
+            "combine": "public",
+            "index": 1,
+            "initialized_ranges": [
+              [
+                0,
+                63
+              ]
+            ],
+            "length": 63,
+            "name": "_TEXT",
+            "native_data": {
+              "sha256": "f4882949918d061a68b7218161229699923793c4f797278654aa3aac212af96f",
+              "size": 63
+            },
+            "overlay_name": "",
+            "use16": true
+          },
+          {
+            "absolute_frame": null,
+            "absolute_offset": null,
+            "alignment": "word",
+            "big": false,
+            "class": "DATA",
+            "combine": "public",
+            "index": 2,
+            "initialized_ranges": [],
+            "length": 0,
+            "name": "_DATA",
+            "native_data": {
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            },
+            "overlay_name": "",
+            "use16": true
+          }
+        ],
+        "strict_comparison_supported": true
+      },
+      "profile": "msc510-medium",
+      "segment": "_TEXT",
+      "start": 32282,
+      "unit": "root"
+    },
+    {
+      "end": 32346,
+      "id": "root-unresolved-07e59",
+      "kind": "UNRESOLVED",
+      "start": 32345,
+      "unit": "root"
+    },
+    {
+      "end": 32396,
+      "id": "runtime-strcpy",
+      "kind": "PINNED_RUNTIME",
+      "library": "C:/tools/msc-5.10/MLIBCR.LIB",
+      "library_sha256": "a8c6bf65551559a795f3bdcef3f70178086bf944296413716e48cba95814b9cb",
+      "member_sha256": "a41d60e87ecb87e665aa98785b21680bd6d0830c5b8140f6aa52640265e55848",
+      "object": {
+        "comments": [
+          {
+            "class": 163,
+            "data_hex": "06737472637079",
+            "flags": 0,
+            "strict_supported": true
+          },
+          {
+            "class": 162,
+            "data_hex": "01",
+            "flags": 0,
+            "strict_supported": true
+          }
+        ],
+        "communals": [],
+        "externals": [],
+        "fixups": [],
+        "groups": [
+          {
+            "name": "DGROUP",
+            "segments": [
+              2
+            ]
+          }
+        ],
+        "modend": {
+          "flags": 0,
+          "has_start_address": false,
+          "main_module": false,
+          "raw_hex": "00",
+          "strict_supported": true
+        },
+        "name": "strcpy.asm",
+        "publics": [
+          {
+            "frame": null,
+            "group_index": 0,
+            "name": "_strcpy",
+            "offset": 0,
+            "segment_index": 1,
+            "type_index": 0
+          }
+        ],
+        "records": [
+          {
+            "checksum": 86,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 15,
+            "name": "THEADR",
+            "offset": 0,
+            "type": 128
+          },
+          {
+            "checksum": 32,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 13,
+            "name": "COMENT",
+            "offset": 15,
+            "type": 136
+          },
+          {
+            "checksum": 16,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 34,
+            "name": "LNAMES",
+            "offset": 28,
+            "type": 150
+          },
+          {
+            "checksum": 220,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 10,
+            "name": "SEGDEF",
+            "offset": 62,
+            "type": 152
+          },
+          {
+            "checksum": 16,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 10,
+            "name": "SEGDEF",
+            "offset": 72,
+            "type": 152
+          },
+          {
+            "checksum": 95,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 7,
+            "name": "GRPDEF",
+            "offset": 82,
+            "type": 154
+          },
+          {
+            "checksum": 86,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 17,
+            "name": "PUBDEF",
+            "offset": 89,
+            "type": 144
+          },
+          {
+            "checksum": 209,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 7,
+            "name": "COMENT",
+            "offset": 106,
+            "type": 136
+          },
+          {
+            "checksum": 223,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 57,
+            "name": "LEDATA",
+            "offset": 113,
+            "type": 160
+          },
+          {
+            "checksum": 116,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 5,
+            "name": "MODEND",
+            "offset": 170,
+            "type": 138
+          }
+        ],
+        "segments": [
+          {
+            "absolute_frame": null,
+            "absolute_offset": null,
+            "alignment": "word",
+            "big": false,
+            "class": "CODE",
+            "combine": "public",
+            "index": 1,
+            "initialized_ranges": [
+              [
+                0,
+                50
+              ]
+            ],
+            "length": 50,
+            "name": "_TEXT",
+            "native_data": {
+              "sha256": "3ec8855142e9c8f5cc31c41e5acedd4d752b052713f8a3a1d5be14d997123380",
+              "size": 50
+            },
+            "overlay_name": "",
+            "use16": true
+          },
+          {
+            "absolute_frame": null,
+            "absolute_offset": null,
+            "alignment": "word",
+            "big": false,
+            "class": "DATA",
+            "combine": "public",
+            "index": 2,
+            "initialized_ranges": [],
+            "length": 0,
+            "name": "_DATA",
+            "native_data": {
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            },
+            "overlay_name": "",
+            "use16": true
+          }
+        ],
+        "strict_comparison_supported": true
+      },
+      "profile": "msc510-medium",
+      "segment": "_TEXT",
+      "start": 32346,
+      "unit": "root"
+    },
+    {
+      "end": 32423,
+      "id": "runtime-strlen",
+      "kind": "PINNED_RUNTIME",
+      "library": "C:/tools/msc-5.10/MLIBCR.LIB",
+      "library_sha256": "a8c6bf65551559a795f3bdcef3f70178086bf944296413716e48cba95814b9cb",
+      "member_sha256": "52618c19c9f92e6557711cf3fa987169b02ed513c7fd7d595b7d59a4ffd2e6c7",
+      "object": {
+        "comments": [
+          {
+            "class": 163,
+            "data_hex": "067374726c656e",
+            "flags": 0,
+            "strict_supported": true
+          },
+          {
+            "class": 162,
+            "data_hex": "01",
+            "flags": 0,
+            "strict_supported": true
+          }
+        ],
+        "communals": [],
+        "externals": [],
+        "fixups": [],
+        "groups": [
+          {
+            "name": "DGROUP",
+            "segments": [
+              2
+            ]
+          }
+        ],
+        "modend": {
+          "flags": 0,
+          "has_start_address": false,
+          "main_module": false,
+          "raw_hex": "00",
+          "strict_supported": true
+        },
+        "name": "strlen.asm",
+        "publics": [
+          {
+            "frame": null,
+            "group_index": 0,
+            "name": "_strlen",
+            "offset": 0,
+            "segment_index": 1,
+            "type_index": 0
+          }
+        ],
+        "records": [
+          {
+            "checksum": 99,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 15,
+            "name": "THEADR",
+            "offset": 0,
+            "type": 128
+          },
+          {
+            "checksum": 45,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 13,
+            "name": "COMENT",
+            "offset": 15,
+            "type": 136
+          },
+          {
+            "checksum": 16,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 34,
+            "name": "LNAMES",
+            "offset": 28,
+            "type": 150
+          },
+          {
+            "checksum": 243,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 10,
+            "name": "SEGDEF",
+            "offset": 62,
+            "type": 152
+          },
+          {
+            "checksum": 16,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 10,
+            "name": "SEGDEF",
+            "offset": 72,
+            "type": 152
+          },
+          {
+            "checksum": 95,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 7,
+            "name": "GRPDEF",
+            "offset": 82,
+            "type": 154
+          },
+          {
+            "checksum": 99,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 17,
+            "name": "PUBDEF",
+            "offset": 89,
+            "type": 144
+          },
+          {
+            "checksum": 209,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 7,
+            "name": "COMENT",
+            "offset": 106,
+            "type": 136
+          },
+          {
+            "checksum": 184,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 34,
+            "name": "LEDATA",
+            "offset": 113,
+            "type": 160
+          },
+          {
+            "checksum": 116,
+            "checksum_state": "computed",
+            "checksum_sum": 0,
+            "length": 5,
+            "name": "MODEND",
+            "offset": 147,
+            "type": 138
+          }
+        ],
+        "segments": [
+          {
+            "absolute_frame": null,
+            "absolute_offset": null,
+            "alignment": "word",
+            "big": false,
+            "class": "CODE",
+            "combine": "public",
+            "index": 1,
+            "initialized_ranges": [
+              [
+                0,
+                27
+              ]
+            ],
+            "length": 27,
+            "name": "_TEXT",
+            "native_data": {
+              "sha256": "2cd35295342e0bb81c0d9387d677ff9f3cd43c569196d1bd0a6727ddb5cbafec",
+              "size": 27
+            },
+            "overlay_name": "",
+            "use16": true
+          },
+          {
+            "absolute_frame": null,
+            "absolute_offset": null,
+            "alignment": "word",
+            "big": false,
+            "class": "DATA",
+            "combine": "public",
+            "index": 2,
+            "initialized_ranges": [],
+            "length": 0,
+            "name": "_DATA",
+            "native_data": {
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "size": 0
+            },
+            "overlay_name": "",
+            "use16": true
+          }
+        ],
+        "strict_comparison_supported": true
+      },
+      "profile": "msc510-medium",
+      "segment": "_TEXT",
+      "start": 32396,
+      "unit": "root"
+    },
+    {
+      "end": 87664,
+      "id": "root-unresolved-07ea7",
+      "kind": "UNRESOLVED",
+      "start": 32423,
+      "unit": "root"
+    },
+    {
+      "end": 14,
+      "id": "overlay-01-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-01"
+    },
+    {
+      "end": 8368,
+      "id": "overlay-02-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-02"
+    },
+    {
+      "end": 3318,
+      "id": "overlay-03-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-03"
+    },
+    {
+      "end": 17548,
+      "id": "overlay-04-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-04"
+    },
+    {
+      "end": 12002,
+      "id": "overlay-05-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-05"
+    },
+    {
+      "end": 11054,
+      "id": "overlay-06-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-06"
+    },
+    {
+      "end": 7924,
+      "id": "overlay-07-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-07"
+    },
+    {
+      "end": 24056,
+      "id": "overlay-08-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-08"
+    },
+    {
+      "end": 2836,
+      "id": "overlay-09-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-09"
+    },
+    {
+      "end": 5474,
+      "id": "overlay-10-unresolved",
+      "kind": "UNRESOLVED",
+      "start": 0,
+      "unit": "overlay-10"
+    }
+  ],
+  "schema": 1,
+  "units": [
+    {
+      "entry": {
+        "cs": 1038,
+        "image_linear": 34723,
+        "ip": 18115
+      },
+      "id": "root",
+      "relocation_scope": "root",
+      "sha256": "47e622175ccf124edab2ed1b5ccb725045d5e54b5766428f8309303fcdf5564d",
+      "size": 87664
+    },
+    {
+      "file_start": 61952,
+      "id": "overlay-01",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "24176efdee2d95ca6d699771a4e5b5a7720f56b48c46b76aac8816f0a2a16f39",
+      "size": 14
+    },
+    {
+      "file_start": 62976,
+      "id": "overlay-02",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "984ef581f3a4ae6492c30060a96886d73a40e9a5596eb77927d793199adcd910",
+      "size": 8368
+    },
+    {
+      "file_start": 72704,
+      "id": "overlay-03",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "f7ebea2c2bd2618a408476ad6d61ceee98a72e809f123eabd9fac9aa60e9d427",
+      "size": 3318
+    },
+    {
+      "file_start": 76800,
+      "id": "overlay-04",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "e7f1232d7fe3de471eb3d34ac490ea7910ac08da11470bb072e6a039921db862",
+      "size": 17548
+    },
+    {
+      "file_start": 95744,
+      "id": "overlay-05",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "b50591460d43e848d52b49ee7b843065413d877dca8dc75455ce7dca2a7f2bd0",
+      "size": 12002
+    },
+    {
+      "file_start": 108544,
+      "id": "overlay-06",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "2114197d8aef68f97c58a253a3f1d2414370d81723ebf1f28a84048129d5350d",
+      "size": 11054
+    },
+    {
+      "file_start": 120832,
+      "id": "overlay-07",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "f9af75d9397eb95d39f0c9eb3670cdb1237f21c4fdd3d9487f12cdf6d637cf6c",
+      "size": 7924
+    },
+    {
+      "file_start": 129536,
+      "id": "overlay-08",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "31690756aa6a355d980964a2f22d1aaccfe59f6bccefa872184a42245d659a9e",
+      "size": 24056
+    },
+    {
+      "file_start": 155648,
+      "id": "overlay-09",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "af36c53a94585bba28091db22a84c442be943ca525625e8937333eb994c83c90",
+      "size": 2836
+    },
+    {
+      "file_start": 159232,
+      "id": "overlay-10",
+      "relocation_scope": "shared-root-unresolved",
+      "sha256": "00235c49a09a4d4efce08425c077098ce616d4f330677397b9d0abcb319454dd",
+      "size": 5474
+    }
+  ]
+}

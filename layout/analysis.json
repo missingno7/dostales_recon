@@ -1,0 +1,317 @@
+{
+  "packages": {
+    "capstone": {
+      "files": [
+        {
+          "path": "capstone/__init__.py",
+          "sha256": "c971543785c8f41bbeab80744658425059033f769827523e21a3a8f6fb336446",
+          "size": 43756
+        },
+        {
+          "path": "capstone/arm.py",
+          "sha256": "00ea7442a1496d84aca469bfa3542290eafe22898b5be0dece9294865b9508ba",
+          "size": 2154
+        },
+        {
+          "path": "capstone/arm64.py",
+          "sha256": "834979e887315fae9a447698502f6866c246cb99b65c84b8b6fdef8087181284",
+          "size": 2428
+        },
+        {
+          "path": "capstone/arm64_const.py",
+          "sha256": "f358d461b1f45a8d91d8e308ca82e5b35c5d2e5c135d8ed07d8cdc86456a5418",
+          "size": 81768
+        },
+        {
+          "path": "capstone/arm_const.py",
+          "sha256": "1b00d7b48be4b72b730272486d4fd2057cb8019e67f1bd145bcabb1b988d1c67",
+          "size": 17295
+        },
+        {
+          "path": "capstone/bpf.py",
+          "sha256": "f879595fbc413bfa74600b4cbaa7a2cdd7200b2f92e718ad31fb36844e7c0f9d",
+          "size": 1438
+        },
+        {
+          "path": "capstone/bpf_const.py",
+          "sha256": "070717e28a68ee7e1e8b29cb9a299f5e462be81d9ad6c83dccce5f771fe22e7e",
+          "size": 2160
+        },
+        {
+          "path": "capstone/evm.py",
+          "sha256": "29f35d3953b2eeb976e02af3cdbf3a78066d4d5a750588da0672e48bc5aa0385",
+          "size": 383
+        },
+        {
+          "path": "capstone/evm_const.py",
+          "sha256": "b3a60498c0ac455098d884574829875deb83a4176a052480249a9d3e93f42b6d",
+          "size": 3292
+        },
+        {
+          "path": "capstone/lib/capstone.dll",
+          "sha256": "0c039b46f064ace44b21801a4147f9c22032e6481ad6afc35c3a82f98e4bafb8",
+          "size": 7570432
+        },
+        {
+          "path": "capstone/m680x.py",
+          "sha256": "24d56b8f6e9c12d73f830f26de36d02461e4d73a3091943e6c90884181efe41d",
+          "size": 2065
+        },
+        {
+          "path": "capstone/m680x_const.py",
+          "sha256": "a8ceebe6e6213da834406e7a56c1f808fad554c5ed85a986b0ef8647db3718da",
+          "size": 8885
+        },
+        {
+          "path": "capstone/m68k.py",
+          "sha256": "0567bf26e32a274b086d296fdcc078dcbda2c66280f941e5986b30eecc647bc8",
+          "size": 2438
+        },
+        {
+          "path": "capstone/m68k_const.py",
+          "sha256": "79de0ea42977ad2875fd73a34ddb55fc2ace58dac45b0ee8aff0ae138c7a8faa",
+          "size": 10489
+        },
+        {
+          "path": "capstone/mips.py",
+          "sha256": "c23b6e5d5df2be6f728dda2da2a8f805d4d1500e383aebf555da1fa9650639e8",
+          "size": 1001
+        },
+        {
+          "path": "capstone/mips_const.py",
+          "sha256": "80a325c59a8a88918d1ebc55268e07461841ddde50d034a545d31cdf44668324",
+          "size": 18592
+        },
+        {
+          "path": "capstone/mos65xx.py",
+          "sha256": "f9b525569fcae4768ac4b2230a46468a571e934717f14d52910e243d0b279e9a",
+          "size": 998
+        },
+        {
+          "path": "capstone/mos65xx_const.py",
+          "sha256": "22762e23dec6d011f75068cac995f4c05f6cf5c93c207502eeb11d0cd4a136f3",
+          "size": 3393
+        },
+        {
+          "path": "capstone/ppc.py",
+          "sha256": "1ee21161d21902744379624d87048138272a99c6bd98623256baa065038bf03d",
+          "size": 1384
+        },
+        {
+          "path": "capstone/ppc_const.py",
+          "sha256": "4284db74b7db3a0e3eda043970096c047df81d9b0a81c13b3b5b70ca623d4b0b",
+          "size": 45023
+        },
+        {
+          "path": "capstone/riscv.py",
+          "sha256": "c40beee7bd99d3f1cc329203020def06140a786d17e2ec963feefb12e0c8e872",
+          "size": 1104
+        },
+        {
+          "path": "capstone/riscv_const.py",
+          "sha256": "6ac81243404207d74b3190c37180b6353a001191c7df5d04fd25f89b624abdd1",
+          "size": 10953
+        },
+        {
+          "path": "capstone/sh.py",
+          "sha256": "d50212075a918e94b41f1e67f838a3b70bc44d19941f33b6d502e5359c967592",
+          "size": 1478
+        },
+        {
+          "path": "capstone/sh_const.py",
+          "sha256": "a19a1837892a0eaa9bc3e5cd3638625471d705a35b08aa26994ad108928125be",
+          "size": 7154
+        },
+        {
+          "path": "capstone/sparc.py",
+          "sha256": "389867d194a7bef779466a5283953cb2b30d2e84368e80112677cfaa0334097c",
+          "size": 1127
+        },
+        {
+          "path": "capstone/sparc_const.py",
+          "sha256": "aef73803efe9a2e0e109fe05e0b791f33e62d41c54ed32cd2773837960d1ddae",
+          "size": 9738
+        },
+        {
+          "path": "capstone/systemz.py",
+          "sha256": "9e75611fb8930ef665b04a80e14ca0735953f69d2f0fdb608f96ea172cef7f2d",
+          "size": 1115
+        },
+        {
+          "path": "capstone/sysz_const.py",
+          "sha256": "98ad76240b48eff060f96fc0986933c904cbdfd654866eb49e7ee5879db2908e",
+          "size": 56291
+        },
+        {
+          "path": "capstone/tms320c64x.py",
+          "sha256": "597bf661d25e283c007c9ee76defb422f41e4279aae5bbd8b5736400109cf6b3",
+          "size": 1672
+        },
+        {
+          "path": "capstone/tms320c64x_const.py",
+          "sha256": "643aeb59e96e2eb10f6ca4e9d27db9c00d83195cf442dea453418ac2df0cb94b",
+          "size": 7257
+        },
+        {
+          "path": "capstone/tricore.py",
+          "sha256": "6716ed4579dadec5c476a0a704c35421860cdaaf20796c7d9c5ebfceb5c4e3cb",
+          "size": 1123
+        },
+        {
+          "path": "capstone/tricore_const.py",
+          "sha256": "95d640cfc8d698f162edc68646c4829cd25289ee47d2869815b33b7839d32bae",
+          "size": 12010
+        },
+        {
+          "path": "capstone/wasm.py",
+          "sha256": "8fb19dfb59cd7175ab0e55b8b7c2d37e150c237ed6060862be6ec3e98bf21d6d",
+          "size": 1627
+        },
+        {
+          "path": "capstone/wasm_const.py",
+          "sha256": "e03e231892153456070055f39a53ed3205feeb24e7d768a2b193adcbe26cffc5",
+          "size": 5132
+        },
+        {
+          "path": "capstone/x86.py",
+          "sha256": "08cbb0a02ff152bcf1fbd7c4f8850b3ade38c25b9f0a6a9b900a55ee75e87c67",
+          "size": 2816
+        },
+        {
+          "path": "capstone/x86_const.py",
+          "sha256": "83cf4550d9256f5f9b8e218b9b732e46d83ef602b463a01d6eeb778deb28e040",
+          "size": 45756
+        },
+        {
+          "path": "capstone/xcore.py",
+          "sha256": "67a3bab5ec77998bf88f320b61be7110318454be2252ff2a02f42ca4aab56a8c",
+          "size": 1082
+        },
+        {
+          "path": "capstone/xcore_const.py",
+          "sha256": "34367710ee0501621fb8b325890cae740ff38075d3ef66b36de9b8b4dcec227f",
+          "size": 3424
+        }
+      ],
+      "purpose": "analysis only; supplies no historical candidate bytes",
+      "version": "5.0.3"
+    },
+    "unicorn": {
+      "files": [
+        {
+          "path": "unicorn/__init__.py",
+          "sha256": "0e8ac7115c755994a968fa865bd1b2f2075edea715c17e91d62af2cc52c13392",
+          "size": 305
+        },
+        {
+          "path": "unicorn/arm64_const.py",
+          "sha256": "ddadd814eccd0a312bb43da7b4f2298690660bd5698c27edc306b1d981cff972",
+          "size": 7873
+        },
+        {
+          "path": "unicorn/arm_const.py",
+          "sha256": "ace0c3e49f61649034a1bec4279576b67e064df146ea8062c67e68dc14e6eb7b",
+          "size": 4284
+        },
+        {
+          "path": "unicorn/lib/unicorn.dll",
+          "sha256": "010d85dce84b8f6ffaec3d5420f1b5f7768f859eb831be574c7da23e656ee8f1",
+          "size": 9598976
+        },
+        {
+          "path": "unicorn/m68k_const.py",
+          "sha256": "af95f32f2810fe19888ac723db70c74c7fb1df2bc8ba3578ede0a28b8eca94a7",
+          "size": 1144
+        },
+        {
+          "path": "unicorn/mips_const.py",
+          "sha256": "087925a25a128662e095bb861af3c38a2a6c522fc21e222e31b71aeacaaa63d3",
+          "size": 5160
+        },
+        {
+          "path": "unicorn/ppc_const.py",
+          "sha256": "11e0c52a1c137874352119fb3d1621639079feda6574ee575271ef683a0a8f17",
+          "size": 10880
+        },
+        {
+          "path": "unicorn/riscv_const.py",
+          "sha256": "86e08d5f6327d154306d5d02899331892de6f44020ff86900a84d2b212205925",
+          "size": 7270
+        },
+        {
+          "path": "unicorn/s390x_const.py",
+          "sha256": "4f6194d1697d8684921782a81f494458dc859f8ebf2f78e30f673bd5f7cd590f",
+          "size": 4101
+        },
+        {
+          "path": "unicorn/sparc_const.py",
+          "sha256": "9dd58fa5aeab225a0f8186f653f5c8fc5fd161b75ccc6a541e5af79f36af2698",
+          "size": 3381
+        },
+        {
+          "path": "unicorn/tricore_const.py",
+          "sha256": "88310f61e12b731b2550031eb6423fbf815e66428b483132d3df47614c9d53ae",
+          "size": 3199
+        },
+        {
+          "path": "unicorn/unicorn.py",
+          "sha256": "2aed71e6d5bc60807198cdcc3ed43a485a7acae1f41f08d986137afc55df2029",
+          "size": 321
+        },
+        {
+          "path": "unicorn/unicorn_const.py",
+          "sha256": "c21d7c49f62296591a5f09ed0119ef95083b82f5f3f66b829578784c7b164368",
+          "size": 3258
+        },
+        {
+          "path": "unicorn/unicorn_py2.py",
+          "sha256": "b82ccc7c00762e10f0326e8d8ad4381872cf531799d5e003ad52c9d7ac61ae42",
+          "size": 39639
+        },
+        {
+          "path": "unicorn/unicorn_py3/__init__.py",
+          "sha256": "2cd4a0d95ef236b5b9e3efb68b20fb6a6d1fb4190db2e9cc0a6447eb2c0aa755",
+          "size": 24
+        },
+        {
+          "path": "unicorn/unicorn_py3/arch/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        },
+        {
+          "path": "unicorn/unicorn_py3/arch/arm.py",
+          "sha256": "d486ff4a9c3f797e5e57a5201a1e2304b97a54b6bc61e320062f1290f4e3dc33",
+          "size": 4108
+        },
+        {
+          "path": "unicorn/unicorn_py3/arch/arm64.py",
+          "sha256": "2e393f3f863da1576619e03abcbda2a2e2e54d673aac98979cf0b6caed8926b4",
+          "size": 5040
+        },
+        {
+          "path": "unicorn/unicorn_py3/arch/intel.py",
+          "sha256": "b3b8338a85ac74623e7a67dfb4f44dc9933786a329e64d772987490dbf751637",
+          "size": 5453
+        },
+        {
+          "path": "unicorn/unicorn_py3/arch/types.py",
+          "sha256": "525ed179db874a13291f9469bd6243e7293aba17454de9b10a9227106d093787",
+          "size": 2774
+        },
+        {
+          "path": "unicorn/unicorn_py3/unicorn.py",
+          "sha256": "b4de7d560790a587157b17edd71c83b4f2d2bade2447d1a5433c497468ac8aeb",
+          "size": 54301
+        },
+        {
+          "path": "unicorn/x86_const.py",
+          "sha256": "d7663db6425f52838f3e79e45a8fe22b6c02be7edb44367ea2118aec04ee5728",
+          "size": 41605
+        }
+      ],
+      "purpose": "analysis only; supplies no historical candidate bytes",
+      "version": "2.1.4"
+    }
+  },
+  "schema": 1
+}

@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "identity_register": "layout/toolchain.json",
+  "evidence": "evidence/toolchain.md",
+  "hypotheses": [
+    {
+      "id": "msc500",
+      "profile": "msc500-medium",
+      "compiler_version": "5.00",
+      "linker_version": "3.61",
+      "emission_probe": "PASS: fresh twice-compiled complete OMF",
+      "far_call_native_data_link_run_probe": "PASS",
+      "target_runtime_diagnostic_hits": 34,
+      "attribution_confidence": "plausible nearby release; shared CRT matches do not establish exact compiler"
+    },
+    {
+      "id": "msc510",
+      "profile": "msc510-medium",
+      "compiler_version": "5.10",
+      "linker_version": "3.65",
+      "emission_probe": "PASS: fresh twice-compiled complete OMF",
+      "far_call_native_data_link_run_probe": "PASS",
+      "target_runtime_diagnostic_hits": 46,
+      "attribution_confidence": "strongest runtime-family inference from full masked startup segment; original compiler/flags unproven"
+    },
+    {
+      "id": "msc510-size",
+      "profile": "msc510-medium-size",
+      "compiler_version": "5.10",
+      "optimization": "/Os",
+      "emission_probe": "PASS: fresh twice-compiled complete OMF",
+      "target_example": "CODE_BYTES_EXACT: complete 22-byte abs interval at root 0x8410",
+      "attribution_confidence": "one stock CRT code-generation example; no general game-TU attribution"
+    },
+    {
+      "id": "msc600",
+      "profile": "msc600-medium",
+      "compiler_version": "6.00 non-A",
+      "linker_version": "5.10",
+      "emission_probe": "PASS: fresh twice-compiled complete OMF",
+      "native_link_run_probe": "UNVERIFIED: existing-object/response-file open failures under tested ReC98/upstream players",
+      "target_runtime_diagnostic_hits": 12,
+      "attribution_confidence": "tested alternative; weaker runtime evidence, compiler not excluded by linker-runner failure"
+    },
+    {
+      "id": "masm510",
+      "profile": "masm510-game",
+      "assembler_version": "5.10",
+      "target_example": "CODE_BYTES_EXACT: complete symbolic 22-byte printer at root 0x8436",
+      "far_call_native_data_link_run_probe": "PASS with MSC500/510",
+      "attribution_confidence": "reproduction choice; original assembler/version unproven"
+    },
+    {
+      "id": "exepack406",
+      "evidence": "evidence/exepack-overlays.md",
+      "packer_version": "4.06, both locally installed variants",
+      "experiment": "deterministic oracle-derived packing; 18-byte RB header differs from target 16-byte form",
+      "packed_exact": false,
+      "attribution_confidence": "not accepted as original packing transform; original version/options unknown"
+    }
+  ]
+}
